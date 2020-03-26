@@ -1,0 +1,6 @@
+.idea/
+go-authentication
+gin-bin
+.env
+tmp/
+test/
