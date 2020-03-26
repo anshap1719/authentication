@@ -3,12 +3,12 @@
 // facebook HTTP client types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	facebookviews "github.com/anshap1719/go-authentication/controllers/gen/facebook/views"
+	facebookviews "github.com/anshap1719/authentication/controllers/gen/facebook/views"
 )
 
 // ReceiveResponseBody is the type of the "facebook" service "receive" endpoint

@@ -3,13 +3,13 @@
 // password-auth HTTP client types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	passwordauth "github.com/anshap1719/go-authentication/controllers/gen/password_auth"
-	passwordauthviews "github.com/anshap1719/go-authentication/controllers/gen/password_auth/views"
+	passwordauth "github.com/anshap1719/authentication/controllers/gen/password_auth"
+	passwordauthviews "github.com/anshap1719/authentication/controllers/gen/password_auth/views"
 )
 
 // RegisterRequestBody is the type of the "password-auth" service "register"

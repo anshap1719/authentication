@@ -3,12 +3,12 @@
 // facebook HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	facebook "github.com/anshap1719/go-authentication/controllers/gen/facebook"
+	facebook "github.com/anshap1719/authentication/controllers/gen/facebook"
 )
 
 // BuildRegisterURLPayload builds the payload for the facebook register-url

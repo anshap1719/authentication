@@ -3,14 +3,14 @@
 // twitter service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package twitter
 
 import (
 	"context"
 
-	twitterviews "github.com/anshap1719/go-authentication/controllers/gen/twitter/views"
+	twitterviews "github.com/anshap1719/authentication/controllers/gen/twitter/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

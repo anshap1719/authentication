@@ -3,7 +3,7 @@
 // auth HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package cli
 
@@ -13,15 +13,15 @@ import (
 	"net/http"
 	"os"
 
-	facebookc "github.com/anshap1719/go-authentication/controllers/gen/http/facebook/client"
-	googlec "github.com/anshap1719/go-authentication/controllers/gen/http/google/client"
-	instagramc "github.com/anshap1719/go-authentication/controllers/gen/http/instagram/client"
-	linkedinc "github.com/anshap1719/go-authentication/controllers/gen/http/linkedin/client"
-	monitoringc "github.com/anshap1719/go-authentication/controllers/gen/http/monitoring/client"
-	passwordauthc "github.com/anshap1719/go-authentication/controllers/gen/http/password_auth/client"
-	sessionc "github.com/anshap1719/go-authentication/controllers/gen/http/session/client"
-	twitterc "github.com/anshap1719/go-authentication/controllers/gen/http/twitter/client"
-	userc "github.com/anshap1719/go-authentication/controllers/gen/http/user/client"
+	facebookc "github.com/anshap1719/authentication/controllers/gen/http/facebook/client"
+	googlec "github.com/anshap1719/authentication/controllers/gen/http/google/client"
+	instagramc "github.com/anshap1719/authentication/controllers/gen/http/instagram/client"
+	linkedinc "github.com/anshap1719/authentication/controllers/gen/http/linkedin/client"
+	monitoringc "github.com/anshap1719/authentication/controllers/gen/http/monitoring/client"
+	passwordauthc "github.com/anshap1719/authentication/controllers/gen/http/password_auth/client"
+	sessionc "github.com/anshap1719/authentication/controllers/gen/http/session/client"
+	twitterc "github.com/anshap1719/authentication/controllers/gen/http/twitter/client"
+	userc "github.com/anshap1719/authentication/controllers/gen/http/user/client"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

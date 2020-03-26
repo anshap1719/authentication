@@ -3,7 +3,7 @@
 // user HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	user "github.com/anshap1719/go-authentication/controllers/gen/user"
+	user "github.com/anshap1719/authentication/controllers/gen/user"
 )
 
 // BuildGetAuthsPayload builds the payload for the user getAuths endpoint from

@@ -3,7 +3,7 @@
 // linkedin HTTP client encoders and decoders
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
@@ -14,8 +14,8 @@ import (
 	"net/http"
 	"net/url"
 
-	linkedin "github.com/anshap1719/go-authentication/controllers/gen/linkedin"
-	linkedinviews "github.com/anshap1719/go-authentication/controllers/gen/linkedin/views"
+	linkedin "github.com/anshap1719/authentication/controllers/gen/linkedin"
+	linkedinviews "github.com/anshap1719/authentication/controllers/gen/linkedin/views"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

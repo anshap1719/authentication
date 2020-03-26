@@ -3,14 +3,14 @@
 // google service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package google
 
 import (
 	"context"
 
-	googleviews "github.com/anshap1719/go-authentication/controllers/gen/google/views"
+	googleviews "github.com/anshap1719/authentication/controllers/gen/google/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

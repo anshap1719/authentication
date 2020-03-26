@@ -1,4 +1,4 @@
-module github.com/anshap1719/go-authentication
+module github.com/anshap1719/authentication
 
 go 1.13
 

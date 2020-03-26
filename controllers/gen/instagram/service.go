@@ -3,14 +3,14 @@
 // instagram service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package instagram
 
 import (
 	"context"
 
-	instagramviews "github.com/anshap1719/go-authentication/controllers/gen/instagram/views"
+	instagramviews "github.com/anshap1719/authentication/controllers/gen/instagram/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

@@ -3,14 +3,14 @@
 // user service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package user
 
 import (
 	"context"
 
-	userviews "github.com/anshap1719/go-authentication/controllers/gen/user/views"
+	userviews "github.com/anshap1719/authentication/controllers/gen/user/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

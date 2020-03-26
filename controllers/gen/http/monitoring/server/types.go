@@ -3,6 +3,6 @@
 // monitoring HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server

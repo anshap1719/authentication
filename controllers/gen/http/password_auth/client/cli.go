@@ -3,7 +3,7 @@
 // password-auth HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	passwordauth "github.com/anshap1719/go-authentication/controllers/gen/password_auth"
+	passwordauth "github.com/anshap1719/authentication/controllers/gen/password_auth"
 	goa "goa.design/goa/v3/pkg"
 )
 

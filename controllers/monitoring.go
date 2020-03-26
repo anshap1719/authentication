@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	monitoring "github.com/anshap1719/go-authentication/controllers/gen/monitoring"
+	monitoring "github.com/anshap1719/authentication/controllers/gen/monitoring"
 )
 
 // monitoring service example implementation.

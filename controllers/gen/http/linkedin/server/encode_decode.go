@@ -3,7 +3,7 @@
 // linkedin HTTP server encoders and decoders
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	linkedinviews "github.com/anshap1719/go-authentication/controllers/gen/linkedin/views"
+	linkedinviews "github.com/anshap1719/authentication/controllers/gen/linkedin/views"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

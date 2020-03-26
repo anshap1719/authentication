@@ -3,12 +3,12 @@
 // twitter HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	twitter "github.com/anshap1719/go-authentication/controllers/gen/twitter"
+	twitter "github.com/anshap1719/authentication/controllers/gen/twitter"
 )
 
 // BuildRegisterURLPayload builds the payload for the twitter register-url

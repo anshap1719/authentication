@@ -3,13 +3,13 @@
 // linkedin HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
 import (
-	linkedin "github.com/anshap1719/go-authentication/controllers/gen/linkedin"
-	linkedinviews "github.com/anshap1719/go-authentication/controllers/gen/linkedin/views"
+	linkedin "github.com/anshap1719/authentication/controllers/gen/linkedin"
+	linkedinviews "github.com/anshap1719/authentication/controllers/gen/linkedin/views"
 )
 
 // ReceiveResponseBody is the type of the "linkedin" service "receive" endpoint

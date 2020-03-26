@@ -3,12 +3,12 @@
 // instagram HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	instagram "github.com/anshap1719/go-authentication/controllers/gen/instagram"
+	instagram "github.com/anshap1719/authentication/controllers/gen/instagram"
 )
 
 // BuildRegisterURLPayload builds the payload for the instagram register-url

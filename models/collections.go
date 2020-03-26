@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/anshap1719/go-authentication/utils/database"
+	"github.com/anshap1719/authentication/utils/database"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

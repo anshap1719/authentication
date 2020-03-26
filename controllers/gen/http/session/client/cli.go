@@ -3,7 +3,7 @@
 // session HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	session "github.com/anshap1719/go-authentication/controllers/gen/session"
+	session "github.com/anshap1719/authentication/controllers/gen/session"
 	goa "goa.design/goa/v3/pkg"
 )
 

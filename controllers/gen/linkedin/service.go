@@ -3,14 +3,14 @@
 // linkedin service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package linkedin
 
 import (
 	"context"
 
-	linkedinviews "github.com/anshap1719/go-authentication/controllers/gen/linkedin/views"
+	linkedinviews "github.com/anshap1719/authentication/controllers/gen/linkedin/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

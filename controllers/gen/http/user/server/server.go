@@ -3,7 +3,7 @@
 // user HTTP server
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
@@ -11,7 +11,7 @@ import (
 	"context"
 	"net/http"
 
-	user "github.com/anshap1719/go-authentication/controllers/gen/user"
+	user "github.com/anshap1719/authentication/controllers/gen/user"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/plugins/v3/cors"

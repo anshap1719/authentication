@@ -3,8 +3,8 @@ package database
 import (
 	"context"
 	"errors"
-	"github.com/anshap1719/go-authentication/controllers/gen/session"
-	"github.com/anshap1719/go-authentication/models"
+	"github.com/anshap1719/authentication/controllers/gen/session"
+	"github.com/anshap1719/authentication/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

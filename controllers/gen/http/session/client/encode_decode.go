@@ -3,7 +3,7 @@
 // session HTTP client encoders and decoders
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
@@ -14,8 +14,8 @@ import (
 	"net/http"
 	"net/url"
 
-	session "github.com/anshap1719/go-authentication/controllers/gen/session"
-	sessionviews "github.com/anshap1719/go-authentication/controllers/gen/session/views"
+	session "github.com/anshap1719/authentication/controllers/gen/session"
+	sessionviews "github.com/anshap1719/authentication/controllers/gen/session/views"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

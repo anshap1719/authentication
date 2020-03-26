@@ -3,12 +3,12 @@
 // instagram HTTP client types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	instagramviews "github.com/anshap1719/go-authentication/controllers/gen/instagram/views"
+	instagramviews "github.com/anshap1719/authentication/controllers/gen/instagram/views"
 )
 
 // ReceiveResponseBody is the type of the "instagram" service "receive"

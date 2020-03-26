@@ -3,13 +3,13 @@
 // user HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
 import (
-	user "github.com/anshap1719/go-authentication/controllers/gen/user"
-	userviews "github.com/anshap1719/go-authentication/controllers/gen/user/views"
+	user "github.com/anshap1719/authentication/controllers/gen/user"
+	userviews "github.com/anshap1719/authentication/controllers/gen/user/views"
 )
 
 // UpdateUserRequestBody is the type of the "user" service "update-user"

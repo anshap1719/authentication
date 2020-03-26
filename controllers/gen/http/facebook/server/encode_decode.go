@@ -3,7 +3,7 @@
 // facebook HTTP server encoders and decoders
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	facebookviews "github.com/anshap1719/go-authentication/controllers/gen/facebook/views"
+	facebookviews "github.com/anshap1719/authentication/controllers/gen/facebook/views"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

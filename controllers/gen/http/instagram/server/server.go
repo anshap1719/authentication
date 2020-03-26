@@ -3,7 +3,7 @@
 // instagram HTTP server
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
@@ -11,7 +11,7 @@ import (
 	"context"
 	"net/http"
 
-	instagram "github.com/anshap1719/go-authentication/controllers/gen/instagram"
+	instagram "github.com/anshap1719/authentication/controllers/gen/instagram"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/plugins/v3/cors"

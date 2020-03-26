@@ -3,14 +3,14 @@
 // password-auth service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package passwordauth
 
 import (
 	"context"
 
-	passwordauthviews "github.com/anshap1719/go-authentication/controllers/gen/password_auth/views"
+	passwordauthviews "github.com/anshap1719/authentication/controllers/gen/password_auth/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

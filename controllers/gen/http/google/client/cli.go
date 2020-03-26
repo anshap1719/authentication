@@ -3,12 +3,12 @@
 // google HTTP client CLI support package
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package client
 
 import (
-	google "github.com/anshap1719/go-authentication/controllers/gen/google"
+	google "github.com/anshap1719/authentication/controllers/gen/google"
 )
 
 // BuildRegisterURLPayload builds the payload for the google register-url

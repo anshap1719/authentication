@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 	"errors"
-	"github.com/anshap1719/go-authentication/models"
+	"github.com/anshap1719/authentication/models"
 	"github.com/gofrs/uuid"
 	"github.com/mrjones/oauth"
 	"go.mongodb.org/mongo-driver/bson"

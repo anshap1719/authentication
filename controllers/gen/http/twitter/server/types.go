@@ -3,13 +3,13 @@
 // twitter HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
 import (
-	twitter "github.com/anshap1719/go-authentication/controllers/gen/twitter"
-	twitterviews "github.com/anshap1719/go-authentication/controllers/gen/twitter/views"
+	twitter "github.com/anshap1719/authentication/controllers/gen/twitter"
+	twitterviews "github.com/anshap1719/authentication/controllers/gen/twitter/views"
 )
 
 // ReceiveResponseBody is the type of the "twitter" service "receive" endpoint

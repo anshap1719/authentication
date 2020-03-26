@@ -2,7 +2,7 @@ package iplocation
 
 import (
 	"encoding/json"
-	"github.com/anshap1719/go-authentication/models"
+	"github.com/anshap1719/authentication/models"
 	"net/http"
 )
 

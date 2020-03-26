@@ -3,13 +3,13 @@
 // google HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
 import (
-	google "github.com/anshap1719/go-authentication/controllers/gen/google"
-	googleviews "github.com/anshap1719/go-authentication/controllers/gen/google/views"
+	google "github.com/anshap1719/authentication/controllers/gen/google"
+	googleviews "github.com/anshap1719/authentication/controllers/gen/google/views"
 )
 
 // ReceiveResponseBody is the type of the "google" service "receive" endpoint

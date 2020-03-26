@@ -1,7 +1,7 @@
 package resources
 
 import (
-	"github.com/anshap1719/go-authentication/design/types"
+	"github.com/anshap1719/authentication/design/types"
 	. "goa.design/goa/v3/dsl"
 )
 

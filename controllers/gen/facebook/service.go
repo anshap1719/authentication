@@ -3,14 +3,14 @@
 // facebook service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package facebook
 
 import (
 	"context"
 
-	facebookviews "github.com/anshap1719/go-authentication/controllers/gen/facebook/views"
+	facebookviews "github.com/anshap1719/authentication/controllers/gen/facebook/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

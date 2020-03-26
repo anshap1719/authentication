@@ -3,7 +3,7 @@
 // password-auth HTTP server encoders and decoders
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"strings"
 
-	passwordauthviews "github.com/anshap1719/go-authentication/controllers/gen/password_auth/views"
+	passwordauthviews "github.com/anshap1719/authentication/controllers/gen/password_auth/views"
 	goahttp "goa.design/goa/v3/http"
 	goa "goa.design/goa/v3/pkg"
 )

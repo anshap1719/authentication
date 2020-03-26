@@ -1,0 +1,42 @@
+{
+  "name": "Golang Authentication",
+  "description": "A self-host authentication service written in golang",
+  "repository": "https://github.com/anshap1719/authentication",
+  "logo": "https://golang.org/lib/godoc/images/go-logo-blue.svg",
+  "keywords": ["golang", "authentication", "security"],
+  "env": {
+    "IsRelease": {
+      "value": "false"
+    },
+    "MONGO_URI": {
+      "value": ""
+    },
+    "DB_NAME": {
+      "value": ""
+    },
+    "URL": {
+      "value": "http://localhost:8080"
+    },
+    "Scheme": {
+      "value": "http"
+    },
+    "Hostname": {
+      "value": "localhost:8080"
+    },
+    "ClientScheme": {
+      "value": "http"
+    },
+    "ClientHostname": {
+      "value": "localhost:3000"
+    },
+    "ClientURL": {
+      "value": "http://localhost:3000"
+    },
+    "PORT": {
+      "value": "8080"
+    },
+    "STAGE": {
+      "value": "DEVELOPMENT"
+    }
+  }
+}

@@ -3,14 +3,14 @@
 // session service
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package session
 
 import (
 	"context"
 
-	sessionviews "github.com/anshap1719/go-authentication/controllers/gen/session/views"
+	sessionviews "github.com/anshap1719/authentication/controllers/gen/session/views"
 	goa "goa.design/goa/v3/pkg"
 	"goa.design/goa/v3/security"
 )

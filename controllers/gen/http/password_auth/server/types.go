@@ -3,15 +3,15 @@
 // password-auth HTTP server types
 //
 // Command:
-// $ goa gen github.com/anshap1719/go-authentication/design
+// $ goa gen github.com/anshap1719/authentication/design
 
 package server
 
 import (
 	"unicode/utf8"
 
-	passwordauth "github.com/anshap1719/go-authentication/controllers/gen/password_auth"
-	passwordauthviews "github.com/anshap1719/go-authentication/controllers/gen/password_auth/views"
+	passwordauth "github.com/anshap1719/authentication/controllers/gen/password_auth"
+	passwordauthviews "github.com/anshap1719/authentication/controllers/gen/password_auth/views"
 	goa "goa.design/goa/v3/pkg"
 )
 
