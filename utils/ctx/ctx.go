@@ -2,6 +2,7 @@ package ctx
 
 import (
 	"context"
+	"go.mongodb.org/mongo-driver/mongo"
 	"net/http"
 	"strings"
 )
@@ -48,7 +49,7 @@ const (
 	RequestUserAgentKey
 )
 
-func PopulateRequestContext() func(http.Handler) http.Handler {
+func PopulateRequestContext(database *mongo.Database) func(http.Handler) http.Handler {
 	return func(h http.Handler) http.Handler {
 		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			ctx := r.Context()
@@ -72,6 +73,7 @@ func PopulateRequestContext() func(http.Handler) http.Handler {
 			} {
 				ctx = context.WithValue(ctx, k, v)
 			}
+
 			h.ServeHTTP(w, r.WithContext(ctx))
 		})
 	}

@@ -9,7 +9,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"os"
 	"reflect"
-	"strings"
 	"time"
 )
 
@@ -49,26 +48,4 @@ func GetCollection(name string) *mongo.Collection {
 	}
 
 	return Database.Collection(name)
-}
-
-func PrepareFilters(filters string) map[string]interface{} {
-	var filterTypes []string
-	var filtersListOfEachType = make(map[string]interface{})
-	filterTypes = strings.Split(filters, ", ")
-	if len(filterTypes) == 1 {
-		filterTypes = strings.Split(filters, ",")
-	}
-
-	for _, v := range filterTypes {
-		if string(v[0]) == " " {
-			strings.TrimSpace(v)
-		}
-		d := strings.Split(v, ":")
-		if string(d[1][0]) == "-" {
-			filtersListOfEachType[d[0]] = map[string]string{"$ne": d[1][1:]}
-		} else {
-			filtersListOfEachType[d[0]] = d[1]
-		}
-	}
-	return filtersListOfEachType
 }
