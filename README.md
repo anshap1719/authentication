@@ -11,4 +11,4 @@ This is a complete authentication solution that you can clone and use directly w
 - Once that is done, simply run `go build` and then `./authentication`
 
 #### Deploy Directly To Heroku
-<div style="text-align: center">[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</div>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
